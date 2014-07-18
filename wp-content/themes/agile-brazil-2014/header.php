@@ -43,19 +43,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/ab-logo.png">
+                    <a href="<?php echo pll_home_url();?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/ab-logo.png"></a>
                 </div>
+
                 <nav class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="/about.html">Sobre</a></li>
-                        <li><a href="/about.html">Programa</a></li>
-                        <li><a href="/about.html">Local</a></li>
-                        <li><a href="/about.html">Patrocínio</a></li>
-                        <li><a href="/about.html">FAQ</a></li>
-                        <li><a href="/about.html">Virada Ágil</a></li>
-                        <li><a href="/about.html">WBMA</a></li>
-                        <li><a href="/about.html">Contato</a></li>
+                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'container' => '')); ?>
                     </ul>
+
                 </nav>
             </div>
         </div>

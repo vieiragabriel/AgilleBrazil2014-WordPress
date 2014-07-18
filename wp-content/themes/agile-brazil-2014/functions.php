@@ -5,6 +5,19 @@
  * Date: 15/07/14
  * Time: 23:05
  */
+
+
+
+function ab2014_register_menus() {
+    register_nav_menus(
+        array(
+            'primary' => __( 'Main Menu' )
+        )
+    );
+}
+add_action( 'init', 'ab2014_register_menus' );
+
+
 function ab2014_widgets_init() {
 
     register_sidebar( array(

@@ -3,14 +3,7 @@
         <div class="col-md-2">
             <h3>Navegue</h3>
             <ul class="nav">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Programa</a></li>
-                <li><a href="#">Local</a></li>
-                <li><a href="#">Patrocínio</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Virada Ágil</a></li>
-                <li><a href="#">WBMA</a></li>
-                <li><a href="#">Contato</a></li>
+                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'items_wrap' => '%3$s', 'container' => '')); ?>
             </ul>
         </div>
         <div class="col-md-2">
