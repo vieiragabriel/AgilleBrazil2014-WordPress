@@ -2681,7 +2681,7 @@ pre code {
 
     /* line 35, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
     .col-md-8, .content {
-        width: 66.6666666667%;
+        width: 65%;
     }
 
     /* line 35, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -8116,6 +8116,7 @@ button.close {
     color: #3A87AD;
     height: 80px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 /* line 29, ../sass/_banner.scss */
 .page-title-wrapper h1 {
